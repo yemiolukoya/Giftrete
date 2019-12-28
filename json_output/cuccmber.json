@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "create a giftrete account",
+        "description": "",
+        "id": "create-an-account;create-a-giftrete-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7716144355,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to giftrete website",
+            "match": {
+              "location": "CreateAccountStep.user_navigate_to_giftrete_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2775829955,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click on the create an account tab",
+            "match": {
+              "location": "CreateAccountStep.the_user_click_on_the_create_an_account_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219468355,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user fillin the register page",
+            "match": {
+              "location": "CreateAccountStep.the_user_fillin_the_register_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129671831,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user click register tab",
+            "match": {
+              "location": "CreateAccountStep.the_user_click_register_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30083,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account Activation By Code page should be displayed",
+            "match": {
+              "location": "CreateAccountStep.account_Activation_By_Code_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an account",
+    "description": "",
+    "id": "create-an-account",
+    "keyword": "Feature",
+    "uri": "/Users/yemioluv/eclipse-workspace/com.giftrete/src/test/java/features/CreateAnAccount.feature"
+  }
+]

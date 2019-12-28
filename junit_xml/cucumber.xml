@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.841145">
+<testcase classname="Create an account" name="create a giftrete account" time="11.841145">
+<system-out><![CDATA[Given user navigate to giftrete website.....................................passed
+And the user click on the create an account tab.............................passed
+And the user fillin the register page.......................................passed
+When the user click register tab............................................passed
+Then Account Activation By Code page should be displayed....................passed
+]]></system-out>
+</testcase>
+</testsuite>
